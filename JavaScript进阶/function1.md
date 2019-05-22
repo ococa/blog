@@ -97,6 +97,27 @@ fn1(function () {           // --> 场景2：函数表达式作为#一次#函数
 
 ## 箭头函数
 
-
+。。。
 
 # 函数的参数
+## 两个概念
+1. 形参：定义函数时候所列举的变量
+2. 实参：调用函数时，实际传入的参数
+## 两个特殊的参数
+1. this
+2. arguments
+## es6参数
+1. 剩余参数
+```
+function(args1, ...otherArgs) { } // 通过结构可以获取剩余参数
+```
+2. 默认参数
+```
+function fn1(args1) {
+    args1 = typeof args1 === "undefined" ? "defaultArgs" : args;    // es5 实现默认参数
+}
+function fn2(args1 = "default") {                                   // es6 实现默认参数
+
+}
+
+```
