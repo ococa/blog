@@ -1,3 +1,4 @@
+# git新建本地分支并推送到远程
 1. 新建并切换到本地分支 dev
 ```
 git checkout -b dev                     // 
@@ -6,6 +7,7 @@ git branch -vv                          // 查看分支状态
 
 2. 切换本地分支
 ```
+
 git checkout dev                        // 切换到本地dev分支
 git checkout master                     // 切换到本地master分支
 ```
