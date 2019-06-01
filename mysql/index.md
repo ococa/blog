@@ -1,6 +1,6 @@
 
 
-## 库
+## 库的操作 database opreation
 
 ### create
 create DATABASE database_name;
@@ -19,7 +19,7 @@ drop DATABASE database_name;
 ### choose 选择数据库
 use database_name;
 
-## 表
+## 表的操作
 
 ## create 新建table
 
@@ -35,7 +35,7 @@ CREATE TABLE IF NOT EXISTS `users`(
 ```
 
 
-## 表操作
+## 表内操作
 
 ### 增
 
@@ -156,10 +156,10 @@ update table_name column_name = new_value;
 update users  set username = 'newwangchao';
 
 ```
-update table_name column_name = new_value where <条件>;
+update table_name  set column_name = new_value where <条件>;
 ```
 -- 条件修改
-update users  set username = 'newwangchao' where id = 1;
+update users  set username = 'newwangchao', realname = 'newwangchao' where id = 1;
 
 ```
 
