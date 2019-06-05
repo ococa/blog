@@ -114,7 +114,7 @@ let container = document.getElementById('container');
 // 具体目标 concrete subject --> controlCheckbox (被观察者是controlCheckbox)
 
 // 利用Subject扩展controlCheckbox
-extend(new Subject, controlCheckbox);
+extend(new Subject(), controlCheckbox);
 
 // 点击checkbox会触发通知到观察者上
 controlCheckbox.onclick = new Function('controlCheckbox.Notify(controlCheckbox.checked)');
@@ -145,7 +145,7 @@ let containerList = document.getElementById('containerList');
 let btn2 = document.getElementById('btn2');
 
 // concret subject，具体被观察者
-extend(new Subject, controlInput);
+extend(new Subject(), controlInput);
 // 被观察者通知事件给观察者
 controlInput.oninput = new Function('controlInput.Notify(controlInput.value)');
 
