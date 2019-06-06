@@ -7,7 +7,6 @@
  * Observer         --> 观察者           ---> class Observer
  * ConcreteSubject  --> 具体目标         ---> controlCheckbox,controlInput
  * ConcreteObserver --> 具体观察者       ---> AddInputbserver生成的input，AddCheckboxbserver生成的checkbox，
- * 
  */
 
  /**
@@ -69,7 +68,7 @@ ObserverList.prototype.RemoveIndexOf = function(index) {
 
 
 
-// 使用extense扩展对象
+// 使用extension扩展对象
 function extend(obj, extension) {
     for (let key in obj) {
         extension[key] = obj[key]
