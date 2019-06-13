@@ -1,5 +1,17 @@
 ## 全局用户名设置
 
+- 修改name和email
+```
+git config user.name = newName          // 修改name
+git config user.email = newEmail        // 修改email
+
+```
+- 查看name和email
+```
+git config user.name
+git config user.email 
+```
+
 ## 单个文件的用户名设置
 1. 在项目根目录下找到.git 文件夹
 2. 修改.git/config文件
