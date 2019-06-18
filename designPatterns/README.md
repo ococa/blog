@@ -32,3 +32,11 @@ iterator，mediator，observer，visitor
 - 在编写指需要满足一个api契约（鸭子类型）的其他对象的实例时。对解耦是很有用的。 ？？？ 啥意思了
 
 #### abstract factory （抽象工厂模式）
+
+### 结构型设计模式
+
+#### Mixin模式
+
+简介：
+
+### 行为设计模式
