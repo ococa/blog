@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>∫
+<body>
+    <script>
+        /**
+         * @param {number[]} nums
+         * @return {number} 新数组长度
+         */
+        var removeDuplicates = function(nums) {
+            let point = -1;
+            nums.forEach((currentValue, index, nums) => {
+                console.log(point++)
+                if (currentValue === nums[point - 1]) {
+                    nums.splice(index, 1)
+                    console.log(point--)
+                }
+            })
+            return nums;
+        };
+
+        let nums = [0,0,1,1,1,2,2,3,3,4]
+        console.log(removeDuplicates(nums))
+    </script>
+</body>
+</html>
