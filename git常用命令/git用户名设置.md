@@ -2,8 +2,8 @@
 
 - 修改name和email
 ```
-git config -g user.name = newName          // 修改name
-git config -g user.email = newEmail        // 修改email
+git config -g user.name "newName"          // 修改name
+git config -g user.email "newEmail"        // 修改email
 
 ```
 - 查看name和email
