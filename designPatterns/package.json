@@ -5,7 +5,7 @@
   "main": "command.js",
   "dependencies": {
     "chalk": "^2.4.2",
-    "underscore": "^1.9.1"
+    "underscore": "^1.12.1"
   },
   "devDependencies": {},
   "scripts": {
